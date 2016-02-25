@@ -73,6 +73,12 @@ describe("测试描述", function(){
        expect(expect_string).to.equal(result);
     });
 
-    
+    it("测试用例13",function(){
+       var result = main(3,5,7,35);
+       var expect_string = 'Fizz';
+       expect(expect_string).to.equal(result);
+    });
+
+
 
 });
