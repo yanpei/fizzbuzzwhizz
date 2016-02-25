@@ -18,6 +18,12 @@ describe("测试描述", function(){
         expect(expect_string).to.equal(result);
     });
 
+    it("测试用例2",function(){
+        var result = main(3,5,12);
+        var expect_string = '存在非个位数的特殊数';
+        expect(expect_string).to.equal(result);
+    });
+
 
 
 });
