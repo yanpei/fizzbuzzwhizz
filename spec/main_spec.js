@@ -49,5 +49,16 @@ describe("测试描述", function(){
        var expect_string = 'FizzBuzz';
        expect(expect_string).to.equal(result);
     });
+    it("测试用例8",function(){
+       var result = main(3,5,7,15);
+       var expect_string = 'FizzBuzz';
+       expect(expect_string).to.equal(result);
+    });
+
+    it("测试用例8",function(){
+       var result = main(3,5,7,21);
+       var expect_string = 'FizzWhizz';
+       expect(expect_string).to.equal(result);
+    });
 
 });
