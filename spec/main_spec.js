@@ -39,5 +39,10 @@ describe("测试描述", function(){
        var expect_string = 'Whizz';
        expect(expect_string).to.equal(result);
     });
+    it("测试用例7",function(){
+       var result = main(3,5,7,13);
+       var expect_string = 'Fizz';
+       expect(expect_string).to.equal(result);
+    });
 
 });
