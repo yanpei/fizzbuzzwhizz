@@ -29,6 +29,11 @@ describe("测试描述", function(){
        var expect_string = 'Fizz';
        expect(expect_string).to.equal(result);
     });
+    it("测试用例4",function(){
+       var result = main(3,5,7,5);
+       var expect_string = 'Buzz';
+       expect(expect_string).to.equal(result);
+    });
 
 
 });
