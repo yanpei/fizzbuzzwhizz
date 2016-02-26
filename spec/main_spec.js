@@ -138,6 +138,8 @@ describe("测试描述", function(){
         var expect_string = '1\n';
         expect(expect_string).to.equal(result);
     });
+    /*//测试getAllString函数传递给getString_Item的参数是对的
+    */
 
 //测试main 函数
     it("测试有异常输入",function(){
